@@ -363,7 +363,11 @@ static struct usb_device_id rtl8192c_usb_ids[] = {
 	{RTL_USB_DEVICE(0x04f2, 0xaffb, rtl92cu_hal_cfg)}, /*Xavi*/
 	{RTL_USB_DEVICE(0x04f2, 0xaffc, rtl92cu_hal_cfg)}, /*Xavi*/
 	{RTL_USB_DEVICE(0x2019, 0x1201, rtl92cu_hal_cfg)}, /*Planex-Vencer*/
-
+	
+	/****** 8188EU ********/
+	/* RTL8188EU / RTL8188ETV 1*1 */
+	{RTL_USB_DEVICE(0x0bda, 0x0179, rtl92cu_hal_cfg)}, /*Realtek 8188EU / 8188ETV*/
+	
 	/****** 8192CU ********/
 	{RTL_USB_DEVICE(0x050d, 0x1004, rtl92cu_hal_cfg)}, /*Belcom-SurfN300*/
 	{RTL_USB_DEVICE(0x050d, 0x2102, rtl92cu_hal_cfg)}, /*Belcom-Sercomm*/
